@@ -1,0 +1,87 @@
+body {
+    font-family: nobile;   
+}
+
+  .logo {
+    height: 60px;
+  }
+  .fb {
+    height: 25px;
+    margin-top: 15px;
+  }
+
+footer {
+    padding-top: 10vmin;
+    padding-bottom: 5vmin;
+    display: flex;
+    justify-content: center;
+  }
+
+h1 {
+    font-size: calc(14px + 2vw);
+    } 
+
+h2 {
+    font-size: calc(14px + 1.5vw);
+  }
+
+h3 {
+    font-size: calc(14px + 0.5vw);
+}
+
+.presentation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 100px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 30vw 1fr 1fr 1fr 10vw;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 10vh 10vh;
+}
+
+.drink {
+  grid-column-start: 2;
+  justify-self: center; /* centrer le texte dans grid **/
+  color: blueviolet;
+  padding-top: 1vw;
+}
+
+.new {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  justify-self: center;
+  padding-top: 1vw;
+}
+
+.digitaline {
+  height: 600px;
+  border-style: solid;
+  border-color: blueviolet;
+  justify-self: center;
+}
+
+.canette {
+  height: 600px;
+  border-style: solid;
+  border-color: blueviolet;
+  justify-self: center;
+}
+
+.texte {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vw;
+  justify-self: center;
+  border-style: solid;
+  border-color: blueviolet;
+  background-color: rebeccapurple;
+  color: white;
+  line-height: 25px; /* changer interlignage **/
+}
