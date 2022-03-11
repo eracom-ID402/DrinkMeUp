@@ -1,2 +1,2 @@
 # DrinkMeUp
- Site internet boissons énergétique pour séniors
+ Site internet boisson énergétique pour séniors
