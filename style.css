@@ -4,11 +4,35 @@ body {
 
 .logo {
   height: 60px;
+  padding-left: 40px;
+}
+
+:hover.logo {
+  cursor: pointer;
 }
 
 .fb {
   height: 25px;
   margin-top: 15px;
+}
+
+:hover.fb {
+  cursor: pointer;
+}
+
+:hover.home {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+:hover.produit {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+:hover.boutique {
+  color: blueviolet;
+  cursor: pointer;
 }
 
 footer {
@@ -69,7 +93,7 @@ nav {
   text-align: center;
   width: 200px;
   margin-top: 43px;
-  margin-left: 190px;
+  margin-left: 10vw;
   background-color: white;
   border-color: blueviolet;
 }
