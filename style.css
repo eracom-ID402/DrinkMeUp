@@ -68,6 +68,23 @@ nav {
   padding-top: 1vw;
 }
 
+.discover {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  margin-top: 43px;
+  margin-left: 190px;
+  background-color: white;
+  border-color: blueviolet;
+}
+
+:hover.discover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
 .digitaline {
   height: 600px;
   border-style: solid;
