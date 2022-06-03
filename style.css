@@ -33,15 +33,13 @@ h3 {
 .presentation {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 nav {
   display: grid;
   grid-template-columns: 30vw 1fr 1fr 1fr 10vw;
 }
-
-
 
 .title {
   display: grid;
@@ -62,6 +60,23 @@ nav {
   grid-row-start: 2;
   justify-self: center;
   padding-top: 1vw;
+}
+
+.discover {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  margin-top: 43px;
+  margin-left: 190px;
+  background-color: white;
+  border-color: blueviolet;
+}
+
+:hover.discover {
+  background-color: blueviolet;
+  cursor: pointer;
 }
 
 .digitaline {
@@ -92,11 +107,7 @@ nav {
 }
 
 
-/* Start Images PopUp */
-
-/* Style the Image Used to Trigger the Modal */
 #FlowerImg {
-  border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -107,7 +118,6 @@ nav {
 
 
 #CanetteImg {
-  border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -116,31 +126,19 @@ nav {
   opacity: 0.7;
 }
 
-/* The Modal (background) */
 .modal {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 1;
-  /* Sit on top */
   padding-top: 100px;
-  /* Location of the box */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/ opacity */
+  background-color: rgba(102, 16, 148, 0.5);
 }
 
-/* Modal Content (Image) */
 .modal-content {
   margin: auto;
   display: block;
@@ -148,7 +146,6 @@ nav {
   max-width: 400px;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
   display: block;
@@ -160,7 +157,6 @@ nav {
   height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
 .modal-content,
 #caption {
   animation-name: zoom;
@@ -177,7 +173,6 @@ nav {
   }
 }
 
-/* The Close Button */
 .close {
   position: absolute;
   top: 15px;
@@ -195,11 +190,8 @@ nav {
   cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
 }
-
-/* End Images PopUp */
