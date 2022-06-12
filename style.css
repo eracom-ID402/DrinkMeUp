@@ -31,6 +31,10 @@ h3 {
 }
 
 h4 {
+  color: black;
+}
+
+h4.kesako {
   color: white;
 }
 
@@ -41,16 +45,46 @@ h4 {
   margin-bottom: 100px;
 }
 
+.ingredients {
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  background-color: white;
+  border-color: blueviolet;
+}
+
+:hover.ingredients {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
 nav {
   display: grid;
   grid-template-columns: 30vw 1fr 1fr 1fr 10vw;
+}
 
+:hover.home {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+:hover.produit {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+:hover.boutique {
+  color: blueviolet;
+  cursor: pointer;
 }
 
 .title {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 10vh 10vh;
+  margin-top: 5vh;
+  margin-bottom: 9vh;
 }
 
 .drink {
@@ -83,6 +117,7 @@ nav {
 :hover.discover {
   background-color: blueviolet;
   cursor: pointer;
+  color: white;
 }
 
 .digitaline {
@@ -108,9 +143,8 @@ nav {
   border-color: blueviolet;
   background-color: rebeccapurple;
   color: white;
-  <<<<<<< Updated upstream line-height: 25px;
-  /* changer interlignage **/
-  =======line-height: 25px;
+
+  line-height: 25px;
   /* changer interlignage **/
 }
 
@@ -247,5 +281,4 @@ footer {
 
 h4.footer {
   color: black;
-  >>>>>>>Stashed changes
 }
